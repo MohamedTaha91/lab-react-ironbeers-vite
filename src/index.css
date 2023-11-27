@@ -1,6 +1,14 @@
+.navbar{
+  height: auto;
+  width: auto;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
+
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 a {
@@ -18,4 +26,51 @@ form {
 
 .btn-round {
   margin: 20px;
+}
+
+.homepage-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.beer-container{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.random-beer{
+width: 100vw;
+}
+.new-beer{
+  width: 100vw;
+
+}
+.beers{
+  width: 100vw;
+
+}
+
+p{
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+#beers{
+  margin-left: 25px;
+  font-size: 50px;
+}
+
+#new-beer{
+  margin-left: 25px;
+  font-size: 50px;
+}
+
+#random-beer{
+  margin-left: 25px;
+  font-size: 50px;
 }
